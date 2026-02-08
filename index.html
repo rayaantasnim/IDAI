@@ -10,6 +10,9 @@
 	<link rel="stylesheet" type="text/css" href="mycar.css">
 </head>
 <body>
+	<audio id="bgMusic" autoplay loop muted>
+    <source src="Sura.mp3" type="audio/mpeg">
+  </audio>
 	<center>
 		<img src="Logo.png" width="40%">
 	</center><br><br>
@@ -747,9 +750,18 @@
 	Ultimately, IDAI is more than a brand or a nation—it is a sanctuary where imagination meets trust. By weaving resilience, creativity, and ethical responsibility into its sectors, IDAI safeguards humanity’s future, inspiring confidence in a world where progress is sacred and renewal eternal.
 </p>
 
+	<script>
+    window.addEventListener("click", () => {
+      const audio = document.getElementById("bgMusic");
+      audio.muted = false;
+      audio.play();
+    }, { once: true });
+  </script>
+
 </body>
 
 </html>
+
 
 
 
