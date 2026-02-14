@@ -46,10 +46,11 @@ h4{
 }
 
 h6{
-	font-size:25px;
+	font-size:35px;
 	background-color: lightgreen;
 	color: black;
 	text-align: center;
+	font-weight:bold;
 }
 
 p{
@@ -97,3 +98,4 @@ span{
 	}
 
 }
+
